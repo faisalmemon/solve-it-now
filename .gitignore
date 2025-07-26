@@ -1,0 +1,20 @@
+# Jekyll build files
+docs/_site/
+docs/.sass-cache/
+docs/.jekyll-cache/
+docs/.jekyll-metadata
+
+# Ruby
+docs/Gemfile.lock
+docs/.bundle/
+docs/vendor/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log

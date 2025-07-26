@@ -1,0 +1,107 @@
+---
+---
+
+@import "minima";
+
+/* Custom styles for Solve It Now! documentation */
+
+.site-header {
+  background-color: #007AFF;
+  border-bottom: 1px solid #0056CC;
+}
+
+.site-title, .site-nav .page-link {
+  color: white !important;
+}
+
+.site-nav .page-link:hover {
+  color: #E6F3FF !important;
+}
+
+.site-title {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.page-content {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #1D1D1F;
+}
+
+h1 {
+  color: #007AFF;
+  border-bottom: 2px solid #E6F3FF;
+  padding-bottom: 0.5rem;
+}
+
+.post-content h2 {
+  margin-top: 2rem;
+  color: #0056CC;
+}
+
+.post-content h3 {
+  color: #333;
+  margin-top: 1.5rem;
+}
+
+/* Button styling */
+a {
+  color: #007AFF;
+}
+
+a:hover {
+  color: #0056CC;
+}
+
+/* Code blocks */
+pre, code {
+  background-color: #F6F8FA;
+  border: 1px solid #E1E4E8;
+}
+
+pre {
+  padding: 1rem;
+  border-radius: 6px;
+}
+
+code {
+  padding: 0.2rem 0.4rem;
+  border-radius: 3px;
+  font-size: 0.85em;
+}
+
+/* Custom content blocks */
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.feature-card {
+  background: #F8F9FA;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid #E9ECEF;
+}
+
+.feature-card h3 {
+  color: #007AFF;
+  margin-top: 0;
+}
+
+/* Responsive design */
+@media screen and (max-width: 600px) {
+  .site-title {
+    font-size: 1.2rem;
+  }
+  
+  .wrapper {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}

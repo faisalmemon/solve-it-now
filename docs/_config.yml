@@ -1,0 +1,26 @@
+# Jekyll Configuration for solve-it-now documentation
+title: "Solve It Now!"
+description: "Public information about the Solve it now! application in Apple's App Store."
+baseurl: "/solve-it-now" # the subpath of your site, e.g. /blog
+url: "https://faisalmemon.github.io" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+
+# GitHub Pages specific settings
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
