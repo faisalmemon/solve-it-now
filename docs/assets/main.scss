@@ -3,6 +3,9 @@
 
 @import "minima";
 
+/* Override minima's default blue theme with orange */
+/* Force orange theme over any default blue styling */
+
 /* Custom styles for Solve It Now! documentation */
 /* Using app's orange accent color: Display P3 (0.921, 0.519, 0.251) */
 
@@ -14,8 +17,8 @@
 }
 
 .site-header {
-  background: linear-gradient(135deg, var(--primary-orange) 0%, var(--primary-orange-dark) 100%);
-  border-bottom: 1px solid var(--primary-orange-dark);
+  background: linear-gradient(135deg, var(--primary-orange) 0%, var(--primary-orange-dark) 100%) !important;
+  border-bottom: 1px solid var(--primary-orange-dark) !important;
   box-shadow: 0 2px 4px rgba(235, 132, 64, 0.1);
 }
 
@@ -26,7 +29,7 @@
 
 .site-nav .page-link:hover {
   color: var(--primary-orange-pale) !important;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.1) !important;
   border-radius: 4px;
   padding: 4px 8px;
   transition: all 0.3s ease;
@@ -55,32 +58,45 @@
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #1D1D1F;
+  color: #1D1D1F !important;
 }
 
 h1 {
-  color: var(--primary-orange);
-  border-bottom: 2px solid var(--primary-orange-light);
+  color: var(--primary-orange) !important;
+  border-bottom: 2px solid var(--primary-orange-light) !important;
   padding-bottom: 0.5rem;
+}
+
+.post-content h1 {
+  color: var(--primary-orange) !important;
 }
 
 .post-content h2 {
   margin-top: 2rem;
-  color: var(--primary-orange-dark);
+  color: var(--primary-orange-dark) !important;
 }
 
 .post-content h3 {
-  color: #333;
+  color: #333 !important;
   margin-top: 1.5rem;
 }
 
 /* Button styling */
 a {
-  color: var(--primary-orange);
+  color: var(--primary-orange) !important;
 }
 
 a:hover {
-  color: var(--primary-orange-dark);
+  color: var(--primary-orange-dark) !important;
+}
+
+/* Override any default link colors */
+.post-content a, .site-footer a, .wrapper a {
+  color: var(--primary-orange) !important;
+}
+
+.post-content a:hover, .site-footer a:hover, .wrapper a:hover {
+  color: var(--primary-orange-dark) !important;
 }
 
 /* Code blocks */
@@ -226,4 +242,53 @@ blockquote {
     padding-left: 1rem;
     padding-right: 1rem;
   }
+}
+
+/* Final overrides to ensure orange theme takes precedence */
+.minima {
+  --brand-color: var(--primary-orange) !important;
+  --brand-color-light: var(--primary-orange-light) !important;
+  --brand-color-dark: var(--primary-orange-dark) !important;
+}
+
+/* COMPREHENSIVE ORANGE THEME OVERRIDES */
+/* This ensures orange colors override any default blue styling */
+
+/* Force all text headers to use orange */
+h1, .page-heading, .post-title, .site-title {
+  color: var(--primary-orange) !important;
+}
+
+h2, .post-content h2 {
+  color: var(--primary-orange-dark) !important;
+}
+
+/* Force all links to use orange */
+a, a:link, a:visited {
+  color: var(--primary-orange) !important;
+}
+
+a:hover, a:active, a:focus {
+  color: var(--primary-orange-dark) !important;
+}
+
+/* Force header background to orange gradient */
+.site-header, .site-header .wrapper {
+  background: linear-gradient(135deg, var(--primary-orange) 0%, var(--primary-orange-dark) 100%) !important;
+  border-bottom: 1px solid var(--primary-orange-dark) !important;
+}
+
+/* Force navigation links to white */
+.site-nav .page-link, .site-nav .page-link:visited, .site-title, .site-title:visited {
+  color: white !important;
+}
+
+/* Override any remaining Sass variables from minima */
+.minima .site-header {
+  background-color: var(--primary-orange) !important;
+}
+
+/* Ensure CSS variables are set at the root level */
+html {
+  --minima-brand-color: var(--primary-orange) !important;
 }
