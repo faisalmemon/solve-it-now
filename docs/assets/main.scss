@@ -17,9 +17,13 @@
 }
 
 .site-header {
-  background: linear-gradient(135deg, var(--primary-orange) 0%, var(--primary-orange-dark) 100%) !important;
-  border-bottom: 1px solid var(--primary-orange-dark) !important;
-  box-shadow: 0 2px 4px rgba(235, 132, 64, 0.1);
+  background: linear-gradient(135deg, #EB8440 0%, #D6742E 100%) !important;
+  border-bottom: 1px solid #D6742E !important;
+  box-shadow: 0 2px 4px rgba(235, 132, 64, 0.1) !important;
+}
+
+.site-header .wrapper {
+  background: transparent !important;
 }
 
 .site-title, .site-nav .page-link {
@@ -28,7 +32,7 @@
 }
 
 .site-nav .page-link:hover {
-  color: var(--primary-orange-pale) !important;
+  color: #FDF6F0 !important;
   background-color: rgba(255, 255, 255, 0.1) !important;
   border-radius: 4px;
   padding: 4px 8px;
@@ -62,18 +66,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  color: var(--primary-orange) !important;
-  border-bottom: 2px solid var(--primary-orange-light) !important;
+  color: #EB8440 !important;
+  border-bottom: 2px solid #F5A366 !important;
   padding-bottom: 0.5rem;
 }
 
 .post-content h1 {
-  color: var(--primary-orange) !important;
+  color: #EB8440 !important;
 }
 
 .post-content h2 {
   margin-top: 2rem;
-  color: var(--primary-orange-dark) !important;
+  color: #D6742E !important;
 }
 
 .post-content h3 {
@@ -83,20 +87,20 @@ h1 {
 
 /* Button styling */
 a {
-  color: var(--primary-orange) !important;
+  color: #EB8440 !important;
 }
 
 a:hover {
-  color: var(--primary-orange-dark) !important;
+  color: #D6742E !important;
 }
 
 /* Override any default link colors */
 .post-content a, .site-footer a, .wrapper a {
-  color: var(--primary-orange) !important;
+  color: #EB8440 !important;
 }
 
 .post-content a:hover, .site-footer a:hover, .wrapper a:hover {
-  color: var(--primary-orange-dark) !important;
+  color: #D6742E !important;
 }
 
 /* Code blocks */
@@ -254,41 +258,56 @@ blockquote {
 /* COMPREHENSIVE ORANGE THEME OVERRIDES */
 /* This ensures orange colors override any default blue styling */
 
-/* Force all text headers to use orange */
-h1, .page-heading, .post-title, .site-title {
-  color: var(--primary-orange) !important;
+/* DIRECT HEX COLOR OVERRIDES - No CSS Variables */
+/* Use actual hex colors to ensure compatibility */
+
+/* Override header with direct hex colors */
+.site-header {
+  background: linear-gradient(135deg, #EB8440 0%, #D6742E 100%) !important;
+  border-bottom: 1px solid #D6742E !important;
+  box-shadow: 0 2px 4px rgba(235, 132, 64, 0.1) !important;
+}
+
+.site-header .wrapper {
+  background: transparent !important;
+}
+
+/* Override all heading colors with direct hex */
+h1, .page-heading, .post-title {
+  color: #EB8440 !important;
+  border-bottom: 2px solid #F5A366 !important;
 }
 
 h2, .post-content h2 {
-  color: var(--primary-orange-dark) !important;
+  color: #D6742E !important;
 }
 
-/* Force all links to use orange */
-a, a:link, a:visited {
-  color: var(--primary-orange) !important;
+/* Override all link colors with direct hex */
+a, a:link, a:visited, .post-content a, .site-footer a, .wrapper a {
+  color: #EB8440 !important;
+  text-decoration: none;
 }
 
-a:hover, a:active, a:focus {
-  color: var(--primary-orange-dark) !important;
+a:hover, a:active, a:focus, .post-content a:hover, .site-footer a:hover, .wrapper a:hover {
+  color: #D6742E !important;
+  text-decoration: underline;
 }
 
-/* Force header background to orange gradient */
-.site-header, .site-header .wrapper {
-  background: linear-gradient(135deg, var(--primary-orange) 0%, var(--primary-orange-dark) 100%) !important;
-  border-bottom: 1px solid var(--primary-orange-dark) !important;
+/* Force site title to white on orange background */
+.site-title, .site-title:visited, .site-title:link {
+  color: white !important;
+  text-decoration: none !important;
 }
 
 /* Force navigation links to white */
-.site-nav .page-link, .site-nav .page-link:visited, .site-title, .site-title:visited {
+.site-nav .page-link, .site-nav .page-link:visited, .site-nav .page-link:link {
   color: white !important;
+  text-decoration: none !important;
 }
 
-/* Override any remaining Sass variables from minima */
-.minima .site-header {
-  background-color: var(--primary-orange) !important;
-}
-
-/* Ensure CSS variables are set at the root level */
-html {
-  --minima-brand-color: var(--primary-orange) !important;
+.site-nav .page-link:hover, .site-nav .page-link:active, .site-nav .page-link:focus {
+  color: #FDF6F0 !important;
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  border-radius: 4px;
+  padding: 4px 8px;
 }
