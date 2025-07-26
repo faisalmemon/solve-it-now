@@ -36,6 +36,15 @@ Three different AI workflows accommodate different privacy and workflow preferen
 
 ## Key Features
 
+### **Multi-Platform Design**
+Built as a universal app that adapts to each Apple platform:
+
+- **iPhone & iPad**: Touch-optimized interface with gesture navigation and adaptive layouts
+- **Mac**: Full desktop experience with menu bar integration, keyboard shortcuts, and window management
+- **Apple Vision Pro**: Spatial computing interface designed for immersive problem-solving
+- **Seamless Sync**: Your problem-solving documents work across all your devices
+- **Platform Optimization**: Interface adapts to each device's unique capabilities
+
 ### **Professional Methodology**
 Built on proven troubleshooting frameworks used in:
 - Technical systems analysis
@@ -48,11 +57,14 @@ Learn from real-world scenarios:
 - **Donut Factory Problem**: Manufacturing scaling challenges with hidden single-point failures
 - **MacBook Crash Analysis**: Complex hardware/software interaction debugging from actual case studies
 
-### **Native iOS Experience**
-- Optimized for iPhone and iPad
-- Document import/export capabilities
-- Seamless integration with iOS sharing and workflow features
-- Regular updates and improvements
+### **Multi-Platform Experience**
+- **Universal App**: One purchase works across iPhone, iPad, Mac, and Apple Vision Pro
+- **Adaptive Interface**: Optimized for touch, trackpad, mouse, and spatial interaction
+- **Cross-Device Sync**: Continue your problem-solving work on any Apple device
+- **Platform-Specific Features**: Takes advantage of each device's unique capabilities
+- **Document import/export capabilities**: Seamlessly share your work across platforms
+- **Integrated workflows**: Works with each platform's sharing and automation features
+- **Regular updates and improvements**: Continuously enhanced for all supported platforms
 
 ## Privacy & Data Handling
 

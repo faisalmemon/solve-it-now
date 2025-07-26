@@ -11,7 +11,7 @@ title: Home
   </div>
 </div>
 
-This is the official documentation site for the **Solve It Now!** application available on Apple's App Store.
+This is the official documentation site for the **Solve It Now!** application available on Apple's App Store as a multi-platform app for iOS, iPadOS, macOS, and visionOS.
 
 ## About the App
 
@@ -44,6 +44,16 @@ Solve It Now! is a systematic problem-solving application that guides users thro
       <li><strong>Solution Evaluation</strong>: Accept, reject, or mark solutions as "not sure" based on your assessment</li>
       <li><strong>Progressive Refinement</strong>: Answer diagnostic questions to drill deeper into the problem</li>
       <li><strong>Guided Workflow</strong>: Step-by-step process that builds understanding incrementally</li>
+    </ul>
+  </div>
+
+  <div class="feature-card">
+    <h3>� Multi-Platform Experience</h3>
+    <ul>
+      <li><strong>iOS & iPadOS</strong>: Optimized touch interface for iPhone and iPad</li>
+      <li><strong>macOS</strong>: Full desktop experience with keyboard shortcuts and window management</li>
+      <li><strong>visionOS</strong>: Immersive spatial computing interface for Apple Vision Pro</li>
+      <li><strong>Universal Purchase</strong>: Buy once, use across all your Apple devices</li>
     </ul>
   </div>
 

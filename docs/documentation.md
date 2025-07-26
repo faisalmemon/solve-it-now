@@ -15,10 +15,32 @@ permalink: /docs/
 4. Begin with the example problems to learn the methodology
 
 ### System Requirements
-- iOS 14.0 or later
-- Compatible with iPhone, iPad, and iPod touch
-- Internet connection required for AI-powered workflows
-- Approximately 50MB of storage space
+- **iOS/iPadOS**: 14.0 or later - Compatible with iPhone, iPad, and iPod touch
+- **macOS**: 11.0 (Big Sur) or later - Compatible with Intel and Apple Silicon Macs
+- **visionOS**: 1.0 or later - Compatible with Apple Vision Pro
+- **Universal Purchase**: Buy once, install on all your Apple devices
+- **Internet connection**: Required for AI-powered workflows
+- **Storage**: Approximately 50MB across all platforms
+
+## Platform-Specific Features
+
+### **iPhone & iPad**
+- **Touch-Optimized Interface**: Gesture-based navigation and interaction
+- **Adaptive Layouts**: Interface adjusts to screen size and orientation
+- **iOS Integration**: Share sheets, shortcuts, and widget support
+- **Apple Pencil Support**: Enhanced text input on iPad
+
+### **Mac**
+- **Desktop Interface**: Full menu bar, toolbar, and keyboard shortcuts
+- **Window Management**: Resizable windows with proper desktop behavior
+- **File Integration**: Native file browser and Finder integration
+- **Keyboard Navigation**: Full keyboard support for efficient workflow
+
+### **Apple Vision Pro (visionOS)**
+- **Spatial Interface**: Immersive problem-solving environment
+- **Eye Tracking**: Natural interaction through gaze and gestures
+- **3D Layouts**: Multi-dimensional organization of problem data
+- **Contextual Placement**: Windows positioned in your physical space
 
 ## User Guide
 
@@ -196,7 +218,7 @@ A real technical case study showing:
 ### **Common Issues**
 
 **App won't start:**
-- Ensure iOS is up to date
+- Ensure your operating system is up to date (iOS 14+, macOS 11+, visionOS 1+)
 - Restart your device
 - Reinstall the app if needed
 
@@ -216,6 +238,8 @@ A real technical case study showing:
 - Close other apps to free memory
 - Restart the app
 - Check available storage space
+- On Mac: Check Activity Monitor for resource usage
+- On Vision Pro: Ensure adequate processing headroom
 - Clear app cache by reinstalling
 
 ### **Getting Better Results**
