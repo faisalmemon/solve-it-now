@@ -6,7 +6,7 @@ permalink: /methodology/
 
 # Problem-Solving Methodology
 
-Solve It Now! implements a systematic approach to problem-solving based on proven troubleshooting frameworks used in professional settings. This methodology helps you move from problem symptoms to root causes through structured analysis.
+Solve It Now! implements a systematic approach to problem-solving based on proven troubleshooting frameworks used in professional settings worldwide. This methodology helps you move from problem symptoms to root causes through structured analysis. The framework provides significant value on its own, with optional AI enhancement available to provide additional perspectives.
 
 ## The Framework
 
@@ -60,36 +60,41 @@ This critical step helps define problem boundaries by documenting what IS part o
 - Narrows investigation scope efficiently
 
 ### **Professional Validation**
-This methodology is used in:
+This methodology has proven effective across industries:
 - **Manufacturing**: Quality control and defect analysis
-- **Technology**: System troubleshooting and debugging
-- **Healthcare**: Diagnostic procedures
-- **Aviation**: Incident investigation
-- **Scientific Research**: Hypothesis testing
+- **Technology**: System troubleshooting and debugging  
+- **Healthcare**: Diagnostic procedures and medical analysis
+- **Aviation**: Incident investigation and safety analysis
+- **Scientific Research**: Hypothesis testing and experimental design
+- **Engineering**: Root cause analysis and system optimization
 
-## AI-Enhanced Analysis
+The structured approach works independently of any AI assistance, providing reliable results through systematic thinking.
+
+## AI-Enhanced Analysis (Optional)
+
+While the systematic methodology provides value on its own, AI enhancement can accelerate and enrich your analysis:
 
 ### **Solution Generation**
 Once you complete the structured analysis, AI can:
-- Identify patterns in your data
-- Suggest potential root causes
-- Recommend solutions to validate
-- Provide alternative perspectives
+- Identify patterns in your collected data
+- Suggest potential root causes based on your IS/IS NOT analysis
+- Recommend solutions to validate systematically
+- Provide alternative perspectives on your structured findings
 
 ### **Diagnostic Questions**
 AI generates follow-up questions to:
-- Fill gaps in your analysis
-- Test hypotheses about causes
-- Guide further data collection
-- Validate or eliminate theories
+- Fill gaps in your systematic analysis
+- Test hypotheses about causes systematically
+- Guide further data collection within the framework
+- Validate or eliminate theories through structured investigation
 
 ### **Iterative Refinement**
-The process becomes iterative:
-1. Complete initial analysis
-2. Review AI suggestions
-3. Answer diagnostic questions
-4. Refine problem understanding
-5. Generate better solutions
+The AI-enhanced process follows the same systematic approach:
+1. Complete initial structured analysis
+2. Review AI suggestions against your systematic findings
+3. Answer diagnostic questions within the framework
+4. Refine problem understanding systematically
+5. Generate better solutions through continued structured analysis
 
 ## Example Application: Donut Factory
 

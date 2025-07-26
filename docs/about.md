@@ -6,11 +6,11 @@ permalink: /about/
 
 # About Solve It Now!
 
-Solve It Now! is a comprehensive problem-solving application that brings systematic troubleshooting methodologies to your iPhone and iPad. The app combines proven problem analysis frameworks with modern AI assistance to help you tackle complex challenges methodically.
+Solve It Now! is a comprehensive problem-solving application that brings proven professional troubleshooting methodologies to your Apple devices. The app is built around systematic frameworks used in manufacturing, engineering, healthcare, and scientific research - with optional AI assistance to enhance your analysis.
 
 ## Our Mission
 
-To make systematic problem-solving accessible to everyone by providing structured tools and AI-powered insights that guide users through proven troubleshooting methodologies.
+To make professional-grade problem-solving methodologies accessible to everyone by providing structured tools and frameworks that guide users through proven troubleshooting approaches. AI enhancement is available but the core value lies in the systematic methodology itself.
 
 ## The Problem-Solving Framework
 
@@ -22,17 +22,20 @@ The app uses a systematic approach based on professional problem-solving methodo
 - **Dimensional Analysis**: Investigate WHAT, WHERE, WHEN, and EXTENT aspects
 - **Progressive Refinement**: Build understanding through iterative questioning
 
-### **AI Integration**
-Three different AI workflows accommodate different privacy and workflow preferences:
+### **AI Enhancement (Optional)**
+Three different AI workflows are available to enhance your systematic analysis:
 
 - **System Prompt**: Generate formatted prompts for use with your own AI tools
 - **Public AI**: Direct integration with AI services (data may be used for training)
 - **Private AI**: Premium AI service with no third-party training (subscription required)
 
+The AI workflows provide additional perspectives and suggestions, but the systematic methodology provides value independently.
+
 ### **Interactive Decision Making**
-- Evaluate AI-suggested solutions with Accept/Reject/Not Sure options
+- Evaluate suggested solutions (from your analysis or AI) with Accept/Reject/Not Sure options
 - Answer diagnostic questions to deepen problem understanding
 - Progressive workflow that builds from initial problem to validated solutions
+- Evidence-based decision making guided by systematic analysis
 
 ## Key Features
 

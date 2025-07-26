@@ -1,6 +1,6 @@
 # Jekyll Configuration for solve-it-now documentation
 title: "Solve It Now!"
-description: "Multi-platform systematic problem-solving with AI-powered insights. Available for iOS, iPadOS, macOS, and visionOS on the Apple App Store."
+description: "Professional troubleshooting methodologies for systematic problem-solving. Multi-platform app with optional AI enhancement, available for iOS, iPadOS, macOS, and visionOS on the Apple App Store."
 baseurl: "/solve-it-now" # the subpath of your site, e.g. /blog
 url: "https://faisalmemon.github.io" # the base hostname & protocol for your site
 

@@ -48,27 +48,28 @@ permalink: /docs/
 
 The app uses a systematic methodology based on professional troubleshooting practices:
 
-1. **Problem Statement** - Define what's wrong with what object
-2. **IS/IS NOT Analysis** - Document problem boundaries
-3. **Dimensional Analysis** - Investigate WHAT, WHERE, WHEN, EXTENT
-4. **AI Analysis** - Generate solutions and diagnostic questions
-5. **Validation** - Evaluate and refine solutions
+1. **Problem Statement** - Define what's wrong with what object using professional format
+2. **IS/IS NOT Analysis** - Document problem boundaries systematically
+3. **Dimensional Analysis** - Investigate WHAT, WHERE, WHEN, EXTENT comprehensively
+4. **Solution Development** - Generate solutions through structured analysis (optionally AI-enhanced)
+5. **Validation** - Evaluate and refine solutions systematically
 
 ### Main Interface Overview
 
 #### **Problem Specification Area**
 The main scrollable area where you:
-- Enter your problem statement in "Object/Defect" format
-- Fill in WHAT, WHERE, WHEN, and EXTENT sections
-- View suggested solutions (after AI analysis)
-- See diagnostic questions (after AI analysis)
+- Enter your problem statement in professional "Object/Defect" format
+- Fill in WHAT, WHERE, WHEN, and EXTENT sections systematically
+- Complete IS/IS NOT analysis for each dimension
+- View suggested solutions (generated systematically or AI-enhanced)
+- See diagnostic questions (to guide further investigation)
 
 #### **Solve Panel**
 The bottom action area containing:
-- **Solve Button** - Triggers AI analysis of your problem specification
-- **Workflow Selector** - Choose between different AI processing modes
-- **Examples Menu** - Access built-in problem examples
-- **Export/Import** - Share or save your problem documents
+- **Analyze Button** - Processes your systematic analysis (with optional AI enhancement)
+- **Workflow Selector** - Choose between different processing modes
+- **Examples Menu** - Access built-in problem examples demonstrating the methodology
+- **Export/Import** - Share or save your structured problem documents
 
 ### Step-by-Step Workflow
 
@@ -96,96 +97,82 @@ The bottom action area containing:
 - EXTENT IS: How many objects affected, severity, trends
 - EXTENT IS NOT: How many could be affected but aren't
 
-#### **3. Choose Your AI Workflow**
+#### **3. Choose Your Processing Workflow**
+
+The systematic analysis you've completed can be processed in different ways:
+
+**Manual Analysis:**
+- Review your structured IS/IS NOT analysis systematically
+- Identify patterns and boundaries manually
+- Develop solutions based on systematic findings
+- Full control over the analytical process
 
 **System Prompt Workflow:**
 - Generates a formatted prompt for use with your own AI tools
-- App copies prompt to clipboard for pasting elsewhere
-- Full control over AI interaction
-- No data sent to external services
+- App copies structured analysis to clipboard for external processing
+- Maintain full control over AI interaction
+- No data sent to external services from the app
 
 **Public AI Workflow:**
-- Direct integration with AI services
-- Your data may be used to improve AI models
-- Immediate results within the app
+- AI enhancement of your systematic analysis
+- Your structured data may be used to improve AI models
+- Immediate additional perspectives within the app
 - No additional cost
 
 **Private AI Workflow (Premium):**
-- AI analysis with privacy guarantee
-- Your data is not used for training
+- AI enhancement with privacy guarantee  
+- Your structured data is not used for training
 - Requires subscription purchase
-- Same immediate results as Public AI
+- Same immediate enhancement as Public AI
 
-#### **4. Review AI Suggestions**
+#### **4. Review Suggestions and Continue Analysis**
 
-After AI analysis, you'll see:
+After processing (manual or AI-enhanced), you'll see:
 
 **Suggested Solutions:**
-- List of potential solutions to validate
+- Potential solutions based on your systematic analysis
 - Tap to navigate to detailed evaluation
-- Accept, reject, or mark as "not sure"
-- Accepted solutions appear in main view
+- Accept, reject, or mark as "not sure" based on your assessment
+- Accepted solutions appear in main view for further investigation
 
 **Diagnostic Questions:**
-- Follow-up questions for deeper investigation  
-- Answer questions to refine your understanding
-- Questions help validate or eliminate potential causes
+- Follow-up questions for deeper systematic investigation  
+- Answer questions to refine your understanding within the structured framework
+- Questions help validate or eliminate potential causes systematically
 
-#### **5. Evaluate and Refine**
+#### **5. Evaluate and Refine Systematically**
 
 **Solution Evaluation:**
-- Review each suggested solution carefully
-- Consider feasibility, cost, and likelihood of success
-- Use Accept/Reject/Not Sure buttons
-- Focus on solutions that address root causes
+- Review each suggested solution against your systematic analysis
+- Consider feasibility, cost, and likelihood of success based on your IS/IS NOT findings
+- Use Accept/Reject/Not Sure buttons to guide further investigation
+- Focus on solutions that address root causes identified through structured analysis
 
 **Answer Diagnostic Questions:**
 - Navigate to diagnostic questions section
-- Answer each question based on your investigation
-- Use the text editor to provide detailed responses
-- Questions help eliminate false leads and confirm hypotheses
+- Answer each question based on your systematic investigation
+- Use the text editor to provide detailed responses within the structured framework
+- Questions help eliminate false leads and confirm hypotheses systematically
 
-### Built-in Examples
+### Using the App Without AI
 
-#### **Donut Factory Problem**
-A manufacturing scenario demonstrating:
-- How scaling can reveal hidden single-point failures
-- The importance of per-component validation
-- Pattern recognition in intermittent problems
-- System-level thinking for complex issues
+The systematic methodology provides significant value even without AI enhancement:
 
-**Key Learning Points:**
-- One faulty machine out of 10 affects only plain donuts
-- Scale masks problems that exist at smaller volumes
-- Different product lines may use different equipment
-- Quality checks needed at each process stage
+#### **Manual Analysis Benefits**
+- **Pure Methodology**: Experience the full power of professional troubleshooting frameworks
+- **Complete Control**: Direct all analysis based on your expertise and knowledge
+- **Privacy First**: No data leaves your device or goes to external services
+- **Educational Value**: Learn the systematic approach through hands-on practice
+- **Professional Development**: Build skills used in engineering, manufacturing, and scientific fields
 
-#### **Computer Crash Problem**
-A real technical case study showing:
-- Multi-layer system analysis (hardware/software/firmware)
-- How new components can introduce subtle issues
-- The challenge of intermittent hardware problems
-- Professional debugging methodologies
+#### **Manual Workflow Process**
+1. **Complete Structured Analysis**: Fill in all IS/IS NOT dimensions thoroughly
+2. **Pattern Recognition**: Look for patterns in your systematic boundary definitions
+3. **Solution Development**: Generate solutions based on your structured findings
+4. **Hypothesis Testing**: Use diagnostic questioning to validate your theories
+5. **Root Cause Identification**: Apply systematic thinking to identify underlying causes
 
-**Key Learning Points:**
-- 2018 MacBooks vs 2017 models - new T2 chip introduction
-- Problem occurs only during sleep/wake cycles
-- Hardware replacement doesn't fix software issues
-- Deep system knowledge required for complex problems
-
-### Advanced Features
-
-#### **Document Management**
-- **Export**: Share problem documents as files
-- **Import**: Load previously saved problems
-- **Templates**: Start from example problems
-- **Version Control**: Track changes to your analysis
-
-#### **Workflow Customization**
-- Choose AI processing mode in settings
-- Switch between workflows for different problems
-- Balance privacy needs with convenience
-- Adapt to your organization's AI policies
+The built-in examples demonstrate how the methodology works independently of AI, showing professional-grade analysis techniques.
 
 ## Tips & Best Practices
 
