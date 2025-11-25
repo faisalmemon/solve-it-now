@@ -89,9 +89,11 @@ The app implements a systematic approach based on proven troubleshooting framewo
 
 ## Getting Started
 
-<div class="getting-started">
-  <p>📱 <strong>Download the app from the <a href="https://apps.apple.com/app/solve-it-now">Apple App Store</a> and start solving your challenges today!</strong></p>
-</div>
+<a href="https://apps.apple.com/us/app/solve-it-now/id6746065586" target="_blank" rel="noopener noreferrer">
+  <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-US?size=250x83&s=store" alt="Download on the App Store" style="height: 60px;" />
+</a>
+
+[Download the app from the Apple App Store](https://apps.apple.com/us/app/solve-it-now/id6746065586) and start solving your challenges today!
 
 ## Support
 
