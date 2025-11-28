@@ -341,25 +341,23 @@ a:hover, a:active, a:focus, .post-content a:hover, .site-footer a:hover, .wrappe
 }
 
 /* Dark mode support for mobile hamburger menu */
-@media (prefers-color-scheme: dark) {
-  @media screen and (max-width: 600px) {
-    .site-nav {
-      background-color: #1a1a1a !important;
-      border: 1px solid #333333 !important;
-    }
-    
-    .site-nav .trigger .page-link,
-    .site-nav .trigger .page-link:visited,
-    .site-nav .trigger .page-link:link {
-      color: #F5A366 !important;  /* Light orange for dark mode */
-      text-decoration: none !important;
-    }
-    
-    .site-nav .trigger .page-link:hover,
-    .site-nav .trigger .page-link:active,
-    .site-nav .trigger .page-link:focus {
-      color: #EB8440 !important;
-      background-color: #2a2a2a !important;
-    }
+@media (prefers-color-scheme: dark) and (max-width: 600px) {
+  .site-nav {
+    background-color: #1a1a1a !important;
+    border: 1px solid #333333 !important;
+  }
+  
+  .site-nav .trigger .page-link,
+  .site-nav .trigger .page-link:visited,
+  .site-nav .trigger .page-link:link {
+    color: #F5A366 !important;  /* Light orange for dark mode */
+    text-decoration: none !important;
+  }
+  
+  .site-nav .trigger .page-link:hover,
+  .site-nav .trigger .page-link:active,
+  .site-nav .trigger .page-link:focus {
+    color: #EB8440 !important;
+    background-color: #2a2a2a !important;
   }
 }
