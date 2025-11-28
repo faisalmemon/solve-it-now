@@ -311,3 +311,53 @@ a:hover, a:active, a:focus, .post-content a:hover, .site-footer a:hover, .wrappe
   border-radius: 4px;
   padding: 4px 8px;
 }
+
+/* Mobile hamburger menu - fix legibility issue */
+/* On mobile, the dropdown has a light background, so text should be dark */
+@media screen and (max-width: 600px) {
+  .site-nav {
+    background-color: #ffffff !important;
+    border: 1px solid #e8e8e8 !important;
+  }
+  
+  .site-nav .trigger .page-link,
+  .site-nav .trigger .page-link:visited,
+  .site-nav .trigger .page-link:link {
+    color: #EB8440 !important;  /* Use the brand orange color for legibility */
+    text-decoration: none !important;
+  }
+  
+  .site-nav .trigger .page-link:hover,
+  .site-nav .trigger .page-link:active,
+  .site-nav .trigger .page-link:focus {
+    color: #D6742E !important;  /* Darker orange on hover */
+    background-color: #FDF6F0 !important;  /* Light orange background on hover */
+  }
+  
+  /* Keep the hamburger menu icon visible (dark on light header area) */
+  .site-nav .menu-icon > svg {
+    fill: #ffffff !important;  /* White icon on orange header */
+  }
+}
+
+/* Dark mode support for mobile hamburger menu */
+@media (prefers-color-scheme: dark) and (max-width: 600px) {
+  .site-nav {
+    background-color: #1a1a1a !important;
+    border: 1px solid #333333 !important;
+  }
+  
+  .site-nav .trigger .page-link,
+  .site-nav .trigger .page-link:visited,
+  .site-nav .trigger .page-link:link {
+    color: #F5A366 !important;  /* Light orange for dark mode */
+    text-decoration: none !important;
+  }
+  
+  .site-nav .trigger .page-link:hover,
+  .site-nav .trigger .page-link:active,
+  .site-nav .trigger .page-link:focus {
+    color: #EB8440 !important;
+    background-color: #2a2a2a !important;
+  }
+}
